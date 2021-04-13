@@ -1,0 +1,27 @@
+{
+  "uni-app": {
+    "scripts": {
+      "mp-weixin-test": {
+        "title":"微信小程序测试版",
+        "env": {
+          "UNI_PLATFORM": "mp-weixin",
+          "CUSTOM_ENV": "test"
+        },
+        "define": {
+          "MP-WEIXIN-TEST": true
+        }
+      },
+      "h5-test": {
+        "title":"h5测试版",
+        "BROWSER":"Chrome",
+        "env": {
+          "UNI_PLATFORM": "h5",
+          "CUSTOM_ENV": "test"
+        },
+        "define": {
+          "MP-H5-TEST": true
+        }
+      }
+    }
+  }
+}
